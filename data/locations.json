@@ -1,0 +1,17 @@
+[
+    {
+        "id": "584204204e65fad6a77093e3",
+        "name": "Manly (Sth Steyne)",
+        "camURL": "https://cams.cdn-surfline.com/cdn-au/au-manlyhotel/playlist.m3u8"
+    },
+    {
+        "id": "584204204e65fad6a77093e0",
+        "name": "Freshwater",
+        "camURL": "https://cams.cdn-surfline.com/cdn-au/au-freshwater/playlist.m3u8"
+    },
+    {
+        "id": "5842041f4e65fad6a7708bf5",
+        "name": "Maroubra",
+        "camURL": "https://cams.cdn-surfline.com/cdn-au/au-maroubra/playlist.m3u8"
+    }
+]
