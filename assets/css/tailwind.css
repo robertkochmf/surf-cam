@@ -6,7 +6,7 @@
     @font-face {
       font-family: Young Serif;
       font-weight: 400;
-      src: url(/fonts/youngserif-regular.woff) format("woff2"),
-      url(/fonts/youngserif-regular.woff) format("woff");
+      src: url(../fonts/youngserif-regular.woff) format("woff2"),
+      url(../fonts/youngserif-regular.woff) format("woff");
     }
   }
