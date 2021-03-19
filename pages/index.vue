@@ -52,7 +52,7 @@ export default {
 
 .header {
   color: white;
-
+  
   img {
     width: 240px;
   }
