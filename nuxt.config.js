@@ -13,6 +13,10 @@ export default {
   ssr: false,
   target: 'static',
 
+  router: {
+    base: '/surf-cam/',
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
