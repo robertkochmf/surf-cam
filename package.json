@@ -15,6 +15,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "autoprefixer": "^9",
     "core-js": "^3.8.3",
+    "eslint-plugin-prettier": "^3.3.1",
     "nuxt": "^2.14.12",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"

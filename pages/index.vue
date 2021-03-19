@@ -18,27 +18,26 @@
 
 <script>
 import LocationCard from '~/components/LocationCard'
-const getLocations = () =>
-  import('~/data/locations.json').then((m) => m.default || m)
+import locationData from '~/data/locations.json'
 export default {
   components: {
     LocationCard,
   },
-  async asyncData({ req }) {
-    const locations = await getLocations()
-    return { locations }
+  async asyncData({ $http }) {
+    const surfData = await $http.$get(
+      'https://services.surfline.com/kbyg/regions/overview?subregionId=58581a836630e24c44879024'
+    )
+
+    console.log(surfData)
+
+    return { surfData }
   },
   data() {
     return {
+      locations: locationData,
       surfData: [],
     }
   },
-  async fetch() {
-    this.surfData = await this.$http.$get(
-      'https://services.surfline.com/kbyg/regions/overview?subregionId=58581a836630e24c44879024'
-    )
-    console.log(this.surfData)
-  }
 }
 </script>
 
@@ -51,7 +50,7 @@ export default {
 
 .header {
   color: white;
-  
+
   img {
     width: 240px;
   }
