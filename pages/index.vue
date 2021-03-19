@@ -38,8 +38,7 @@ export default {
       'https://services.surfline.com/kbyg/regions/overview?subregionId=58581a836630e24c44879024'
     )
     console.log(this.surfData)
-  },
-  fetchOnServer: true,
+  }
 }
 </script>
 
