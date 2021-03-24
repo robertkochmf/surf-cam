@@ -5,7 +5,7 @@
     >
       <img src="@/assets/images/logo.svg" />
 
-      <a href="@/assets/images/playlist.m3u8">test</a>
+      <a href="/playlist.m3u8">test</a>
     </div>
     <div class="container mx-auto px-4 flex flex-col items-center pb-20">
       <LocationCard
