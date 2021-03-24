@@ -4,6 +4,8 @@
       class="header container mx-auto flex flex-col justify-center items-center py-8"
     >
       <img src="@/assets/images/logo.svg" />
+
+      <a href="@/assets/playlist.m3u8">test</a>
     </div>
     <div class="container mx-auto px-4 flex flex-col items-center pb-20">
       <LocationCard
